@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Verkefni 1.2</title>
+    <meta charset="iso-8859-7">
+
+  </head>
+<body>
+  <p id="items"></p>
+</body>
+<script>
+var items, i, ilen;
+items = new Array("Pepsi","Bread","Pizza souce","Oats","Candy Bar");
+ilen = items.length;
+var text = "";
+for (i = 0; i < ilen; i++) {
+  text += items[i] + " ";
+}
+
+document.getElementById("items").innerHTML = text;
+</script>
