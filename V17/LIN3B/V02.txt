@@ -1,0 +1,18 @@
+1.
+  man nl
+    opnar man page fyrir number line of files
+2.
+  Skrifa hverja skrá sem standard output. með línu tölum
+3.
+  til þess að geta fundið auðveldlega hverja línu, ef þú ert með 100 línu
+  skjal þá til þess að finna t.d línu 5 þá kemur talan 5 oft upp í þessu
+  skjali.
+4.
+
+5.
+  Scott Bartram og David MacKenzie
+6.
+  info coreutils 'nl invocation'
+7.
+  nl --version
+  nl (GNU Coreutils) 8.21
