@@ -1,0 +1,68 @@
+1.
+  ECMAscript er staðlaða útgáfan af Javascript sem kom árið 1998
+2.
+ 
+3.
+  Það er enginn munur á einföldum og tvöföldum gæsalöppum í JS. Það er hins vegar hægt að setja einfaldar gæsalappir inní tvöfaldar, og öfugt.
+  Dæmi.
+  	"Siggi er að læra 'VEF2B'."
+  	'Siggi er að læra "VEF2B".'
+4.
+  Null er ekkert gildi. gildið er ekki til.
+  Undefined er að yfirleitt óskilgreind breyta.
+  var Siggi; #þessi er undefined.
+  var Gunni = Null; #þessi er null. (Ekkert illa meint gunni minn)
+5.
+  == skoðar hvort að gildi séu jafn mikil 
+  === skoðar hvort að gildi séu ALVEG eins 
+6.
+  því að || er logical OR í javascript. annað gildið þar að vera satt til þess að skipunin verði True
+7.
+  Regular Expression eða regex er notað til þess að fara í gegnum texta og vinna úr honum.
+  dæmi:
+  var str = "Gunnar Kennari";
+  var res = str.replace(/Gunnar/i, "Siggi");
+  #þetta breytir öllu sem passar við Gunnar í 'var str' yfir í Siggi. og setur það í nýja breytu.
+8.
+  Siggi muna að skoða https://rainsoft.io/6-ways-to-declare-javascript-functions/
+
+9.
+  LET leyfir þér að búa til local varibles innan ákveðnar blokkar.
+  Dæmi:
+    function letTest() {
+      let x = 1;
+      if (true) {
+        let x = 2;
+        console.log(x);//þetta skilar 2
+      }
+      console.log(x);//þetta skilar 1
+    }
+  þannig ef að breytan er með sama nafn þá munu þær samt koma með mismunandi gildi.
+10.
+  Scope í JS eru gerð þannig að þau bindast locally, s.s breyta sem að gerð er inní falli er ekki hægt að nota utan þess falls. Hins vegar ef að það er declare-að fyrir utan fallið þá verður breytan global. Þar af leiðandi hægt að nota allstaðar.
+11.
+  Í javascript þá er hægt að binda gildi við breytur áður en þær eru skilgreindar. Þetta er kallað hoisting.
+  dæmi.
+    x = 5; //Gildi gefið til x
+    elem = document.getElementById("hoist");
+    elem.innerHTML = x;
+
+    var x; //x skilgreint
+12.
+  "use strict"; skilgreinir að allur kóði mun vera keyrður í Strict mode.
+  þar er tildæmis ekki hægt að keyra kóða sem að er með óskilgreindar breytur 
+  dæmi.
+    "use strict";
+    function siggi(){
+      x = 6;
+    }
+    þetta keyrir ekki því að x er ekki skilgreind
+13.
+  x();// er skilgreint. ekkert notað
+  function x() { // x() er skilgreint sem fall
+    console.log("x"); // fallið keyrir þessa skipun
+  } // fallið klárast
+14.
+  þegar það er ekki notað 'var' þá er búið til global breytu. ef að einhver önnur breyta sem að heitir sama nafni þá mun það yfirskrifa það gildi
+15.
+  
