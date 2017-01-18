@@ -1,0 +1,40 @@
+1.
+  Private þá er ekki hægt að ná í gögnin með external kalli, hins vegar virkar internal köll fínt.
+  Procted. þá er hægt að skoða gögnin en ekki hægt að eiga við þau.
+  Public. þá er hægt að skoða gögnin og eiga við þau.
+2.
+  Inheritance er hugtak sem að notað er í klassa gerð. Þar sem maður er með base class sem að "undir klassar" get notast við uppbyggingu á base class
+  dæmi:
+  class player
+  {
+    function equipWeapon(Weapon AK47)
+    {
+      echo "Allah Akhbar";
+    }
+  }
+  class Weapon
+  {
+
+  }
+  class AK47 extends Weapon
+  {
+
+  }
+3.
+  Namespace tekur í raun frá breytu nafn í kóða. ef að namespace er skilgreint þá er ekki hægt að nota það því að það er frátekið. eins og með nöfn á files í stýrikerfi. enginn af þeim má vera eins undir sömu
+  möppu, þannig hver file name er namespace fyrir viðkomandi folder
+4.
+  class Book
+  {
+    var $price;
+    var $title;
+    function setPrice($newPrice)
+    {
+      $price = $newPrice;
+      return $newPrice;
+    }
+    function getPrice()
+    {
+      return $price;
+    }
+  }
