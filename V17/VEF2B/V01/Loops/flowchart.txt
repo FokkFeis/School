@@ -1,0 +1,9 @@
+Flæðirit fyrir VEF2B, verkefni 1.3.
+
+Button(insertItem)->addCart()
+  Button(removeItem)->removeItem(item[id])
+  Button(increaseItem)->increaseItem(item[id]++)
+
+Button(clearCart)->clearCart(cart[id])
+
+Button(checkoutCart)->checkout(chart[id])

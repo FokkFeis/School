@@ -1,7 +1,7 @@
 1.
   ECMAscript er staðlaða útgáfan af Javascript sem kom árið 1998
 2.
- 
+
 3.
   Það er enginn munur á einföldum og tvöföldum gæsalöppum í JS. Það er hins vegar hægt að setja einfaldar gæsalappir inní tvöfaldar, og öfugt.
   Dæmi.
@@ -13,8 +13,8 @@
   var Siggi; #þessi er undefined.
   var Gunni = Null; #þessi er null. (Ekkert illa meint gunni minn)
 5.
-  == skoðar hvort að gildi séu jafn mikil 
-  === skoðar hvort að gildi séu ALVEG eins 
+  == skoðar hvort að gildi séu jafn mikil
+  === skoðar hvort að gildi séu ALVEG eins
 6.
   því að || er logical OR í javascript. annað gildið þar að vera satt til þess að skipunin verði True
 7.
@@ -24,6 +24,7 @@
   var res = str.replace(/Gunnar/i, "Siggi");
   #þetta breytir öllu sem passar við Gunnar í 'var str' yfir í Siggi. og setur það í nýja breytu.
 8.
+  $$$$$
   Siggi muna að skoða https://rainsoft.io/6-ways-to-declare-javascript-functions/
 
 9.
@@ -50,7 +51,7 @@
     var x; //x skilgreint
 12.
   "use strict"; skilgreinir að allur kóði mun vera keyrður í Strict mode.
-  þar er tildæmis ekki hægt að keyra kóða sem að er með óskilgreindar breytur 
+  þar er tildæmis ekki hægt að keyra kóða sem að er með óskilgreindar breytur
   dæmi.
     "use strict";
     function siggi(){
@@ -63,6 +64,15 @@
     console.log("x"); // fallið keyrir þessa skipun
   } // fallið klárast
 14.
-  þegar það er ekki notað 'var' þá er búið til global breytu. ef að einhver önnur breyta sem að heitir sama nafni þá mun það yfirskrifa það gildi
+
 15.
-  
+  þegar það er ekki notað 'var' þá er búið til global breytu. ef að einhver önnur breyta sem að heitir sama nafni þá mun það yfirskrifa það gildi
+16.
+  Nafnlaust fall með Immediate function. Alert er keyrt
+17.
+  Template literal leyfa þér að nota embedded expressions, eins og t.d New line.
+  Dæmi:
+    console.log('Strengur með texta 1\n'+'Strengur með texta 2');
+18.
+  Call Stack er data structure sem að geymir upplýsingar um "Subroutines" forrits.
+  Heap er sérsníðað tree data structure.
