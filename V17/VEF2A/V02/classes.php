@@ -1,22 +1,45 @@
 <?php
-  class Book
-  {
-      var $title;
-      var $author;
-      var $publisher;
-      var $yearOfPublication;
-  }
-$first = new Book;
-$first->title               ='Game of Thrones';
-$first->author              ='George R. R. Martin';
-$first->publisher           ='Voyager Books';
-$first->yearOfPublication   = 1996;
 
-$second = new Book;
-$second->title              = 'The Colour Of Magic';
-$second->author             = 'Terry Pratchett';
-$second->publisher          = 'Colin Smythe';
-$second->yearOfPublication  = 1983;
+class Book
+{
+  public function __construct($title,$price,$publisher)
+  {
+    $this->title=$title;
+    $this->price=$price;
+    $this->publisher=$publisher;
+  }
+  function setPrice($newPrice)
+  {
+    $this->price = $newPrice;
+
+  }
+  function getPrice()
+  {
+    print_r($this->price);
+  }
+
+}
+class Publisher extends Book
+{
+  function setPublisher($newPublisher)
+  {
+    $this->publisher = $newPublisher;
+  }
+  function getPublisher()
+  {
+    return $publisher;
+  }
+}
+//$efnafraedi = new Book('Efnafraedi 101', 10, 'siggi publisher');
+
+//$staerdfraedi = new Book('Staerdfraedi 101', 12, 'siggi publisher');
+
+$islenska = new Book('Islenska 101', 11, 'siggi publisher');
+
+//print_r($efnafraedi);
+//print_r($staerdfraedi);
+print_r($islenska);
+
 
 
 ?>
