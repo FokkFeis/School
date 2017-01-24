@@ -1,12 +1,50 @@
 <?php
 
+class Image {
+    public function __construct($name, $size, $owner, $path)
+    {
+      $this->name = $name;
+      $this->size = $size;
+      $this->owner = $owner;
+      $this->path = $path;
+    }
+
+    public function getImageName() {
+
+    }
+    public function getOwnerName() {
+
+    }
+    public function getImageSize() {
+
+    }
+    public function getPath() {
+
+    }
+    public function setImageName() {
+
+    }
+    public function setPath() {
+
+    }
+    public function setOwnerName() {
+
+    }
+    public function showImageSize() {
+
+    }
+    public function showImage() {
+
+    }
+    ]
+}
+
 class Book
 {
-  public function __construct($title,$price,$publisher)
+  public function __construct($title,$price)
   {
     $this->title=$title;
     $this->price=$price;
-    $this->publisher=$publisher;
   }
   function setPrice($newPrice)
   {
@@ -19,27 +57,26 @@ class Book
   }
 
 }
-class Publisher extends Book
-{
-  function setPublisher($newPublisher)
-  {
-    $this->publisher = $newPublisher;
+
+
+class User {
+
+  public function __construct(array $userInfo) {
+    $this->email=$userInfo[0];
+    $this->password=$userInfo[1];
   }
-  function getPublisher()
-  {
-    return $publisher;
+
+  public function setPassword($newPass){
+    $this->password=$newPass;
+  }
+  public function getPassword() {
+    print($this->password);
+  }
+  public function setEmail($newEmail) {
+    $this->email=$newEmail;
+  }
+  public function getEmail() {
+    print($this->email);
   }
 }
-//$efnafraedi = new Book('Efnafraedi 101', 10, 'siggi publisher');
-
-//$staerdfraedi = new Book('Staerdfraedi 101', 12, 'siggi publisher');
-
-$islenska = new Book('Islenska 101', 11, 'siggi publisher');
-
-//print_r($efnafraedi);
-//print_r($staerdfraedi);
-print_r($islenska);
-
-
-
 ?>
