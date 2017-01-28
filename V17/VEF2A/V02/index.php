@@ -22,7 +22,7 @@ include("classes.php");
   <div id ='image'>
     <?php
     if (isset($_POST['upload'])) {
-      $destination = $_SERVER['DOCUMENT_ROOT'] . "\VEF2A\V02\Resources\Pictures/";
+              $destination = "Resources/Pictures";
       try {
         $loader = new upload($destination);
         $loader->upload();
