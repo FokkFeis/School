@@ -1,0 +1,27 @@
+<h3>1.) Hvað er prototype í JavaScript? Hvernig tengjast prototype öðrum prototype?
+Útskýrðu og komdu með dæmi.</h3>
+<p>Prototype er það javascript notar fyrir inhertance.
+  inheritance er hægt að nota til þess að sleppa við endurtakningu á kóða, í dæminu fyrir neðan
+  geri ég eitt function fyrir alla "Dog" object-in mína.
+  þannig þegar ég bý til nýjan voffa þá kann hann að gelta</p>
+<script>
+  function Dog (breed) {
+    this.breed = breed;
+};
+// here we make buddy and teach him how to bark
+var buddy = new Dog("golden Retriever");
+Dog.prototype.bark = function() {
+  console.log("Woof");
+};
+buddy.bark();
+// here we make snoopy
+var snoopy = new Dog("Beagle");
+/// this time it works!
+snoopy.bark();
+</script>
+
+<h3>Hvað gerir prototype hér í kóðanum?
+Afhverju ekki að hafa getIsbn
+fallið í Book smiðnum ( e.
+constructor)? </h3>
+<p>Það er gert til þess að allar nýjar bækur geti notað fallið</p>
