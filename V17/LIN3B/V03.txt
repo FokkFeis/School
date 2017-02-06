@@ -1,0 +1,12 @@
+1.)
+  sed 's/inu. /LINUX/g' bazaar.txt | nl
+2.)
+   sed 'w/{5}' bazaar.txt | nl
+3.)
+
+4.)
+  sed 's/the. /ETH/g' bazaar.txt | nl
+
+5.)
+
+   
