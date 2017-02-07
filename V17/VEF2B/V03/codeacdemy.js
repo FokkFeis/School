@@ -256,20 +256,20 @@
         var area = rex.calcArea();
         var perimeter = rex.calcPerimeter();
       //24.
-        function Rabbit(adjective) {
-          this.adjective = adjective;
-          this.describeMyself = function() {
-              console.log("I am a " + this.adjective + " rabbit");
-          };
-        }
+      function Rabbit(adjective) {
+        this.adjective = adjective;
+        this.describeMyself = function() {
+            console.log("I am a " + this.adjective + " rabbit");
+        };
+      }
 
-        // now we can easily make all of our rabbits
-        var rabbit1 = new Rabbit("fluffy");
-        var rabbit2 = new Rabbit("happy");
-        var rabbit3 = new Rabbit("sleepy");
-        rabbit1.describeMyself();
-        rabbit2.describeMyself();
-        rabbit3.descripeMyself();
+      // now we can easily make all of our rabbits
+      var rabbit1 = new Rabbit("fluffy");
+      var rabbit2 = new Rabbit("happy");
+      var rabbit3 = new Rabbit("sleepy");
+      rabbit1.describeMyself();
+      rabbit2.describeMyself();
+      rabbit3.describeMyself();
       //25.
         // Our person constructor
         function Person (name, age) {
@@ -300,7 +300,7 @@
         // loop through our new array
         for(var i = 0; i <family.length;i++){
           console.log("My name is " + family[i].name);
-        };
+        }
       //27.
         // Our person constructor
         function Person (name, age) {
@@ -312,7 +312,7 @@
         // This one computes the difference in ages between two people
         var ageDifference = function(person1, person2) {
           return person1.age - person2.age;
-        }
+        };
 
         var alice = new Person("Alice", 30);
         var billy = new Person("Billy", 25);
@@ -394,7 +394,7 @@
         this.perimeter = function (radius) {
             return 2 * Math.PI * this.radius;
           };
-        };
+        }
     //Building an address Book.
       //1.
         var bob = {
@@ -442,7 +442,7 @@
         // printperson added here
         function printPerson(person){
           console.log(person.firstName + " " + person.lastName);
-        };
+        }
         printPerson(contacts[0]);
         printPerson(contacts[1]);
       //4.
@@ -463,13 +463,13 @@
         // printperson added here
         function printPerson(person){
           console.log(person.firstName + " " + person.lastName);
-        };
+        }
         function list(){
           var contactsLength = contacts.length;
           for(var i = 0; i < contactsLength; i++){
             printPerson(contacts[i]);
-          };
-        };
+          }
+        }
         list();
       //5
         var bob = {
@@ -496,7 +496,7 @@
         var contactsLength = contacts.length;
         for (var i = 0; i < contactsLength; i++) {
           printPerson(contacts[i]);
-        };
+        }
         }
 
         /*Create a search function
@@ -506,8 +506,8 @@
           for(var i = 0; i < contactsLength; i++){
             if(contacts[i].lastName == lastName){
                   printPerson(contacts[i]);
-              };
-          };
+              }
+          }
         }
         search("Jones");
       //6.
@@ -535,7 +535,7 @@
         var contactsLength = contacts.length;
         for (var i = 0; i < contactsLength; i++) {
           printPerson(contacts[i]);
-        };
+        }
         }
 
         /*Create a search function
@@ -545,8 +545,8 @@
           for(var i = 0; i < contactsLength; i++){
             if(contacts[i].lastName == lastName){
                   printPerson(contacts[i]);
-              };
-          };
+              }
+          }
         }
 
         function add(firstName, lastName, email, phoneNumber){
@@ -577,3 +577,15 @@
         // create a "gabby" object using the Person constructor!
         var gabby = new Person("student", true);
       //2.
+        function Person(job, married) {
+            this.job = job;
+            this.married = married;
+            // add a "speak" method to Person!
+            this.speak = function(){
+                console.log("Hello!");
+            };
+        }
+
+        var user = new Person("Codecademy Student",false);
+        user.speak();
+      //3.
