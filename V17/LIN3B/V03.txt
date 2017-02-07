@@ -1,12 +1,39 @@
-1.)
-  sed 's/inu. /LINUX/g' bazaar.txt | nl
-2.)
-   sed 'w/{5}' bazaar.txt | nl
-3.)
+1.sed /inu/g tlazaar.txt
+2.sed /^{5}$/g tlazaar.txt
+3.sed /^{2|4|6|8|10}$/g tlazaar.txt
+4.sed s/^the$/ETH/g tlazaar.txt
 
-4.)
-  sed 's/the. /ETH/g' bazaar.txt | nl
+1.sed p/!(^Linux$)/g tlazaar.txt
+2.sed d/!(^Linux$|^$)/g tlazaar.txt
+3.sed d/^[aeoui]|[aeoui]$/g tlazaar.txt
+4.sed p/^[Bb]azaar$/g tlazaar.txt
+5.sed d/!(^$)/g tlazaar.txt
 
-5.)
+1.sed /^<$/g index.hmtl
+ nei skelin les thetta sem input og virkar ekki eins og eg bjost vid
+2.sed /^\<$/g index.html
+	ja
+3.sed /^\<div/gi index.html
+4.sed p/^QED$/g= index.html
+5.sed p/^\<h[1-5]/gi index.html
 
-   
+1.sed /^Subject:/g emails.txt
+
+1.skiptir the med THE
+2.skiptir <the> med THE
+3.skiptir einum sviga sem er tómur eða inniheldur 1 staf svo att merki og annar eins svigi og skiptir því með 2 user 1
+4.skiptir ut (0 eda fleiri stafir annadhvort 0-9, a-z, A-Z eda punkt)@ (0 eda fleiri stafir annadhvort 0-9, a-z, A-Z eda punkt) fyrir 2 .. 1
+5.fyrri parturinn er eins og i fjogur nema hann skiptir inn "<<<2>>> .. [[[1]]]"
+
+1.done
+2.df -h| cut -d' ' -f1,4,5
+3.df -h | cut -d' ' -f1,4,5 | tr ' ' ':'
+4.
+5.
+6.done
+7.done
+8.done
+
+1.grep 'dagsetningin i dag' /var/log/messages
+2.grep "Authentication Faliure" /var/log/messages | wc -l
+3-7.ekki hægt

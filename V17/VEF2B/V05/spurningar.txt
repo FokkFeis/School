@@ -1,0 +1,21 @@
+2)
+  1. document.write("f');
+    ekki sömulappir, ætti að vera tvöfaldar
+  2. Document.write("f");
+    Stórt "D" á að vera lítið d
+  3. var list = ['John 1' 'John 2','John 3'];
+    Vantar kommu
+  4. var b = {};
+     b.getArea();
+     getArea er ekki define-að
+  5. var width = 12;
+     var area = width * height;
+     height er ekki defined
+3)
+  a verður b og b verður 5, þar að leiðandi er b==5 og a == 5
+4)
+  Prentar út
+  Aurelio De Rosa
+  John Doe
+  prentar út Aurelio fyrst því að það er nýjasta fullname varible
+  þegar er kallað aftur í getFullname þá er búið að declare-a John doe efst, þannig hann er nýjasta fullname varible

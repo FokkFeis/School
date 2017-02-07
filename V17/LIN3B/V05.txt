@@ -1,0 +1,29 @@
+1. það skilar "Hello $USERNAME. How are you today?".vegna þess að er bara strengur.
+2.fyrri skipunin býr til möppu með nafnið "{hello,bye}.{world,earth}"
+en seinni skipunin býr til fjórar möppur(hello.world , hello.earth , bye.world , bye.earth)
+3.þetta skilar strengnum 'echo $USERNAME'
+4.það skila strengnum sem einum streng án allra quotes
+5.skipunin promptar quote
+
+1.það skilar Hello og usernameið mitt, vegna þess að breytur virka innan double quotes
+2.það skilar Hello FokkFeis. \'I am king of this candy pile\'. And You vegna þess að þótt að þú escape-ir single quote-in þá þetta ennþá strengur
+3.það skilar Hello. My $USERNAME is "$USERNAME". This quoting stuff can get a bit tricky . vegna þess að þetta er allt inn í streng
+4.það skilar Hello. My 'FokkFeis' is FokkFeis. This quoting stuff can get a bit tricky vegna þess að '' innan "" breytir engu þegar tvöföld quotes eru fyrir utan einföld
+5.það skilar því sama og fyrra nema það escape-ar $USERNAME sem breytu og prentar bara út $USERNAME
+6. -e er rofi sem virkjar allskonar skipanir inní strengnum svo sem \b og \n
+7.þetta býr til töflu vegna þess að \t býr til tab og \n nýja línu.
+8.
+9.þetta skilar $USERNAME\home vegna þess að þú escape-ar $USERNAME breytuna.
+
+
+1. a) NUMUSERS=`uptime | cut -d' ' -f7,8` b) NUMUSERS=`uptime | cut -d' ' -f4,5`
+2. a) MODELNAME =`grep -i "model name" /proc/cpuinfo | cut -f1`
+b) MODELNAME =`grep -i "cpu Mhz" /proc/cpuinfo | cut -f1`
+c) MODELNAME =`grep -i "cache size" /proc/cpuinfo | cut -f1`
+d) MODELNAME =`grep -i "bogomips" /proc/cpuinfo | cut -f1`
+
+3.a)echoar numer dagsins í dag af árinu
+b)echo ar sama nema notar ekki %j því það er í sér streng
+c)echoar $DT sem streng
+d)echoar aftur the date today is: $DT afþví að það escapear $
+e)og þarna echoar það actual date-inu því að $ er ekki escape-að
