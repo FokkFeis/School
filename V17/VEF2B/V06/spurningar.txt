@@ -1,0 +1,18 @@
+1.
+  því að sú aðferð finnur bara ID á element og vinnur með það sama hversu mörg þau eru
+2.
+
+3.
+
+4.
+  var elements = document.getElementsByTagName('li'); //sækir öll element sem er með li taggi
+  if (elements.length > 0) { //ef að það er til einhver element.
+    var el = elements[2]; //sækir element númer 3
+    el.className = 'cool'; //gefur el breytu class af 'cool'
+  } //lokar if statement
+
+5.
+<script>
+var x = document.getElementsByTagName("LI")[0].nextSibling.textContent;
+console.log(x);
+</script>
