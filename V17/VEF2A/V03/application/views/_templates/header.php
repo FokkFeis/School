@@ -11,7 +11,7 @@ if (!$this) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="ISO-8859-1">
     <title>VEF2A V03</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
@@ -30,7 +30,6 @@ if (!$this) {
               <!-- same like "home" or "home/index" -->
               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>">Home</a></li>
               <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>world">World</a></li>
-              <!-- "songs" and "songs/index" are the same -->
-              <li><a href="<?php echo URL_WITH_INDEX_FILE; ?>songs">Songs</a></li>
+              <li><a href="<?php echo URL_WITH_INDEX_FILE;?>motd">Message of the Day</a></li>
           </ul>
       </div>
