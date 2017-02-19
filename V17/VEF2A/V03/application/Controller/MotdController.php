@@ -1,24 +1,28 @@
 <?php
 
 /**
- * Class Error
+ * Class HomeController
  *
  * Please note:
  * Don't use the same name for class and method, as this might trigger an (unintended) __construct of the class.
  * This is really weird behaviour, but documented here: http://php.net/manual/en/language.oop5.decon.php
  *
  */
-class Error extends Controller
+
+namespace Mini\Controller;
+
+class MotdController
 {
     /**
      * PAGE: index
-     * This method handles the error page that will be shown when a page is not found
+     * This method handles what happens when you move to http://yourproject/home/index (which is the default page btw)
      */
     public function index()
     {
         // load views
-        require APP . 'views/_templates/header.php';
-        require APP . 'views/error/index.php';
-        require APP . 'views/_templates/footer.php';
+        require APP . 'view/_templates/header.php';
+        require APP . 'view/motd/index.php';
+        require APP . 'view/_templates/footer.php';
     }
+
 }
