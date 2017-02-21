@@ -1,7 +1,7 @@
 1.
   því að sú aðferð finnur bara ID á element og vinnur með það sama hversu mörg þau eru
 2.
-
+  
 3.
 
 4.

@@ -56,3 +56,6 @@ footer {
    height:60px;   /* Height of the footer */
 
 }
+#questions{
+  list-style-type: none;
+}
