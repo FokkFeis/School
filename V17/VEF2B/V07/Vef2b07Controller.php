@@ -21,7 +21,7 @@ class Vef2bv07Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/Vef2b07/index.php';
+        require APP . 'view/Vef2bv07/index.php';
         require APP . 'view/_templates/footer.php';
     }
 
