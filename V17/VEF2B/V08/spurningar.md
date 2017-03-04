@@ -1,5 +1,5 @@
 # VEF2B3U
-## Verkefni 8 - Events – 7%
+## Verkefni 8 - Events – 7% Spurninga hluti
 
 ### 1. Það eru til þrjár leiðir að binda event við element, hver þeirra leiða er best og af hverju? Komdu með kóðasýnidæmi. (0.5%)
 `Event Listeners` er eflaust besta leiðin til þess að binda event við element, það er nýlegasta leiðin og hægt er að binda fleirri en eina function við event-inn.
