@@ -3,7 +3,6 @@
 // Code used from teacher
 /* DOM element */
 	let elContainer = document.getElementById('container');
-
 /* Smiður fyrir spurningu */
 	function Question(question, answers, correctAnswer) {
 		this.question = question; 					/* Spurning (strengur) */
@@ -33,8 +32,9 @@
 	elContainer.innerHTML = questions[0].getTemplate();
 
 })();
-
-
-function checkAnswer(){
-
-};
+var qELement = document.querySelector('.question');
+console.log(qELement);
+qELement.addEventListener('click',function(){
+		qELement.classList.remove('question');
+		qELement.classList.add('pressed');
+},false);
