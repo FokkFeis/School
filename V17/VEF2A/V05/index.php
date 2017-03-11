@@ -47,7 +47,7 @@ include('head.php');
       </div>
       <div class="search">
         <form class="search" action="pictures.php" method="post">
-          
+
         </form>
       </div>
     </div>
