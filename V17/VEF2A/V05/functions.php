@@ -34,13 +34,13 @@ class functionClass{
     $stm->execute();
     return $stm->fetchAll();
   }
-  /*
+
   function search($search){
     $sql = "SELECT users.id, users.username, pictures.filename, pictures.description, pictures.picturename FROM pictures INNER JOIN users ON pictures.user_id = users.id WHERE filename LIKE :search";
     $stm = $this->db->prepare($sql);
     $stm->bindValue(':search', '%'.$search);
     $stm->execute();
     return $stm->fetchAll();
-  }*/
+  }
 }
  ?>
