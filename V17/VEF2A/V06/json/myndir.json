@@ -1,0 +1,18 @@
+[
+  {
+    "path": "http://i.imgur.com/86Lw5Vf.jpg",
+    "name": "Cat dump 1"
+  },
+  {
+    "path": "http://i.imgur.com/3bLMw77.jpg",
+    "name": "Cat dump 2"
+  },
+  {
+    "path": "http://i.imgur.com/sR0uJbf.jpg",
+    "name": "Cat dump 3"
+  },
+  {
+    "name": "test",
+    "path": "http://i.imgur.com/86Lw5Vf.jpg"
+  }
+]
