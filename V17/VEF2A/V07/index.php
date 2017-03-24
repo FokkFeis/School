@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>VEF2A | V07</title>
-  </head>
-  <body>
+<?php
 
-  </body>
-</html>
+include('php/header.php'); #All head things
+
+include('php/frontpage.php'); #pictures on the front page, aka latest pictures
+
+include('php/footer.php'); #all footer things and bootstrap stuff
+
+?>

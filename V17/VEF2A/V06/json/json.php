@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['insert-json'])){
+if(isset($_POST['name'])){
   $data = array(
     'name'=>$_POST['name'],
     'path'=>$_POST['path']

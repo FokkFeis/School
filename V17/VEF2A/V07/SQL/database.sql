@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXSISTS curd;
+USE crud;
+
+CREATE TABLE IF NOT EXISTS `users`
+(
+	id INTEGER(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS `pictures` (
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    filename VARCHAR(100),
+    picturename VARCHAR(100),
+    description VARCHAR(200),
+		private BOOLEAN NOT NULL DEFAULT 0,
+    user_id INTEGER(11) NOT NULL,
+    FOREIGN KEY (user_id)
+        REFERENCES users (id)
+);
