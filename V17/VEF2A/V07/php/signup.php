@@ -1,4 +1,6 @@
-<?php  ?>
+<?php
+
+ ?>
 
 <form action="php/process.php" method="POST">
   <div class="form-group">

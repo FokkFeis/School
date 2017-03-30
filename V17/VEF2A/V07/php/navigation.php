@@ -1,3 +1,6 @@
+<?php session_start();
+
+?>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,8 +22,20 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.php">login</a></li>
-        <li><a href="signup.php">Signup</a></li>
+        <?php
+        if(isset($_SESSION['username'])){
+          echo "<li><a href='admin.php'>Profile</a></li>";
+        }
+        else{
+          echo "<li><a href='login.php'>login</a></li>";
+        }
+        if(isset($_SESSION['username'])){
+
+        }
+        else {
+          echo "<li><a href='signup.php'>Signup</a></li>";
+        }?>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

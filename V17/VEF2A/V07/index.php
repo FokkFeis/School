@@ -1,4 +1,4 @@
-<?php
+<?php 
 //require('php/connection.php');
 
 include('php/header.php'); #All head things
