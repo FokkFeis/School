@@ -1,4 +1,4 @@
-name;email;username;password
-Jón Jónsson;nonni@fakemail.com;nonniboy;5igfri3d009 
-Sigríður Guðmundsdóttir;sigga@testmail.is;siggabeib;bHU78 
-Pétur Pétursson;peterthegreat@nomail.ru;panpanpan;12345 
+firstname,lastname,email,username,passoword
+Jon,Jonsson,nonni@fakemail.com,nonniboy,5igfri3d009
+Sigridur,Gudmunsdottir,sigga@testmail.is,siggabeib,bHU78
+Petur,petusson,peterthegreat@nomail.ru,panpanpan;12345
