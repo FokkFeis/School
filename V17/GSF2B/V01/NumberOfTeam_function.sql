@@ -1,0 +1,9 @@
+DELIMITER $$
+CREATE FUNCTION NumberOfTeam()
+RETURNS INT
+BEGIN
+	RETURN (SELECT count(teamID) FROM teams);
+END $$
+DELIMITER $$
+
+SELECT NumberOfTeam()
