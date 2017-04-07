@@ -36,7 +36,7 @@ begin
 end $$
 delimiter ;
 
-call newMember('Sigurdur','Baldvin','sigurdur@tl.is','FokkFeis','randomPassword');
-call NewMember('Jon','Jonsson','nonni@fakemail.com','nonniboy','5igfri3d009');
-call NewMember('Sigridur','Gudmundsdottir','sigga@testmail.is','siggabeib','bHU78');
-call NewMember('Petur','Petusson','peterthegreat@nomail.ru','panpanpan','1234');
+#call newMember('Sigurdur','Baldvin','sigurdur@tl.is','FokkFeis','randomPassword');
+#call NewMember('Jon','Jonsson','nonni@fakemail.com','nonniboy','5igfri3d009');
+#call NewMember('Sigridur','Gudmundsdottir','sigga@testmail.is','siggabeib','bHU78');
+#call NewMember('Petur','Petusson','peterthegreat@nomail.ru','panpanpan','1234');
