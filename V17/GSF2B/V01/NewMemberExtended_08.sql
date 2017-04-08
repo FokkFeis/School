@@ -49,5 +49,4 @@ call newMemberExtended('Sigurdur','Baldvin','sigurdur@tl.is','FokkFeis','randomP
 #call NewMember('Jon','Jonsson','nonni@fakemail.com','nonniboy','5igfri3d009');
 #call NewMember('Sigridur','Gudmundsdottir','sigga@testmail.is','siggabeib','bHU78');
 #call NewMember('Petur','Petusson','peterthegreat@nomail.ru','panpanpan','1234');
-SELECT @member_id_out
-
+SELECT @member_id_out;
