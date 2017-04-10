@@ -24,6 +24,6 @@ Vefurinn verður uppsettur á Linux server og uppsetning á þjónustum eins og 
 * [jQuery](http://jquery.com)
 * [MySQL](https://www.mysql.com/)
 * [MySQL Workbench](https://www.mysql.com/products/workbench/)
-* [Mini PHP Framework](https://github.com/panique/mini)
+* [Tiny PHP Framework](https://github.com/panique/tiny)
 
 ###### *Birt með fyrirvara um breytingar*
