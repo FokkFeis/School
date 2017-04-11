@@ -2,7 +2,7 @@
 ## Chapter 1 - The project
 ### *added 11:10pm 10th of april*
 For this project I will be making a website for betting with virtual currency on *fake* fights.
-The user will be given a fixed amount for betting for the first time, *amount TBD*. Virtual fights will be added automaticly for each session, fighters are added by an admin and are given a standard *fight strength* that increases if the fighter wins and decreases if the fighter loses, A figher MMR if you will, similar to what is found in popular eSport games like CS:GO, DoTA 2, and Overwatch.
+The user will be given a fixed amount for betting for the first time, *amount TBD*. Virtual fights will be added automatically for each session, fighters are added by an admin and are given a standard *fight strength* that increases if the fighter wins and decreases if the fighter loses, A fighters strength or Matchmaking rating(MMR) if you will, is similar to what is found in popular eSport games like CS:GO, DoTA 2, and Overwatch.
 These fighters are separated to leagues, *Bronze, Silver, Gold and finally Masters*.
 
 The MMR goes from *1* to *N* meaning there is no MMR cap, and the highest MMR fighter is *Grand Master*
@@ -77,9 +77,9 @@ Fighter1 wins round 3
 
 Final score is Fighter1 *2* | Fighter2 *1*
 
-So since fighter1 won he gets +25 MMR but since the fight wasn't fair he gets 25 % 1.1 = 22 points
+So since fighter1 won he gets +25 MMR but since the fight wasn't fair he gets 25 / 1.1 = 22 points
 
-And since fighter2 lost he loses -25 MMR but since he was an underdog he only loses 25 % 1.1 = 22 points
+And since fighter2 lost he loses -25 MMR but since he was an underdog he only loses 25 / 1.1 = 22 points
 
 #### End of fight ranking
 
