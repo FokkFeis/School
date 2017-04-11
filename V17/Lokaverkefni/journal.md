@@ -7,11 +7,11 @@ These fighters are separated to leagues, *Bronze, Silver, Gold and finally Maste
 
 The MMR goes from *1* to *N* meaning there is no MMR cap, and the highest MMR fighter is *Grand Master*
 ### The league placements are the following
-* Bronze (1-999)
-* Silver (1000-1999)
-* Gold (2000-3000)
-* Masters (3000+)
-* Grand Master (Highest MMR)
+* Bronze (1-999) Minimum bet 1 Maximum 25
+* Silver (1000-1999) Minimum bet 25 maximum 50
+* Gold (2000-3000) minimum bet 50 maximum 100
+* Masters (3000+) minimum bet 100 no maximum
+* Grand Master (Highest MMR) ALL IN OR NOTHING | minimum 500
 
 The fight is determined by 3 dice rolls and will factor in the fighters MMR.
 ##### Example
