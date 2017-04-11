@@ -98,3 +98,5 @@ So the user will be able to place a bet on these matches and will get coins in r
 So if *User1* places a 100 coins on fighter1 he will get 90% on the bet or 90 coins because he's betting on a favorite.
 
 If however he bets on fighter2  he will get 110% on the bet or 110 coins because he's betting on a underdog.
+
+### *finished 12:18am 11th of april*
