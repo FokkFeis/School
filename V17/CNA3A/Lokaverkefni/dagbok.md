@@ -39,7 +39,32 @@ S3
 
 ---
 # Stilla VLAN á svitch-ana
-mmmh þú heldur það, maximumbeil
+Byrjum á Ljósmyndun VLAN
+(ég tengi S10 við S1 á port 10)
+### S1
+```
+en
+conf t
+vlan 10
+  name LJOSMYNDUN
+  exit
+interface fastEthernet 0/10
+  switchport access vlan 10
+  exit
+
+vlan 11
+  name KENNARAR
+  exit
+interface fastEthernet 0/11
+  switchport access vlan 11
+  exit
+interface fa0/10
+  switchport mode trunk
+  switchport trunk allowed
+```
+mmmh þú heldur það, maximumbeil, I'm doing something wrong
+
+*end of Dagur 1 - 01:24*
 
 #### Dagur 2 - 27.04.17 07:18
 beil að á allt sem ég gerði í gær.var eitthvað rugl í gangi.
