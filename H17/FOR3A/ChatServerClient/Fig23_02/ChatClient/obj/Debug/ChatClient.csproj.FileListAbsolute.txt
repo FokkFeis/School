@@ -1,0 +1,15 @@
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\obj\Debug\ChatClient.exe
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\obj\Debug\ChatClient.pdb
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\bin\Debug\ChatClient.exe
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\bin\Debug\ChatClient.pdb
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\obj\Debug\ChatClientForm.resources
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+H:\Vor2016\FOR3A\ch23\Fig23_02\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+H:\Vor2017\Fig23_02\ChatClient\obj\Debug\ChatClient.exe
+H:\Vor2017\Fig23_02\ChatClient\obj\Debug\ChatClient.pdb
+H:\Vor2017\Fig23_02\ChatClient\bin\Debug\ChatClient.exe
+H:\Vor2017\Fig23_02\ChatClient\bin\Debug\ChatClient.pdb
+H:\Vor2017\Fig23_02\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+H:\Vor2017\Fig23_02\ChatClient\obj\Debug\ChatClientForm.resources
+H:\Vor2017\Fig23_02\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+H:\Vor2017\Fig23_02\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache

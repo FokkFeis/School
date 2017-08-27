@@ -1,0 +1,6 @@
+/home/fokkfeis/Code/School/H17/FOR3A/ChatServerClient/Fig23_01/ChatServer/obj/Debug/ChatServerForm.resources
+/home/fokkfeis/Code/School/H17/FOR3A/ChatServerClient/Fig23_01/ChatServer/obj/Debug/ChatServer.Properties.Resources.resources
+/home/fokkfeis/Code/School/H17/FOR3A/ChatServerClient/Fig23_01/ChatServer/bin/Debug/ChatServer.pdb
+/home/fokkfeis/Code/School/H17/FOR3A/ChatServerClient/Fig23_01/ChatServer/bin/Debug/ChatServer.exe
+/home/fokkfeis/Code/School/H17/FOR3A/ChatServerClient/Fig23_01/ChatServer/obj/Debug/ChatServer.exe
+/home/fokkfeis/Code/School/H17/FOR3A/ChatServerClient/Fig23_01/ChatServer/obj/Debug/ChatServer.pdb

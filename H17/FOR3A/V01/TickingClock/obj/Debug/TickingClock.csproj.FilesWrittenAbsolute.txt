@@ -1,0 +1,12 @@
+/home/fokkfeis/Downloads/TickingClock/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/fokkfeis/Downloads/TickingClock/bin/Debug/TickingClock.exe.config
+/home/fokkfeis/Downloads/TickingClock/bin/Debug/TickingClock.pdb
+/home/fokkfeis/Downloads/TickingClock/bin/Debug/TickingClock.exe
+/home/fokkfeis/Downloads/TickingClock/obj/Debug/TickingClock.exe
+/home/fokkfeis/Downloads/TickingClock/obj/Debug/TickingClock.pdb
+/home/fokkfeis/Code/School/H17/FOR3A/V01/TickingClock/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/fokkfeis/Code/School/H17/FOR3A/V01/TickingClock/bin/Debug/TickingClock.exe.config
+/home/fokkfeis/Code/School/H17/FOR3A/V01/TickingClock/bin/Debug/TickingClock.pdb
+/home/fokkfeis/Code/School/H17/FOR3A/V01/TickingClock/bin/Debug/TickingClock.exe
+/home/fokkfeis/Code/School/H17/FOR3A/V01/TickingClock/obj/Debug/TickingClock.exe
+/home/fokkfeis/Code/School/H17/FOR3A/V01/TickingClock/obj/Debug/TickingClock.pdb
