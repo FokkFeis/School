@@ -31,11 +31,6 @@ body {
     display: block
   }
   
-  /* MARKERS  */
-  .markers .marker-child {
-  
-  } 
-  
   .svg--wrapper:hover .markers .marker-child {
       -webkit-animation: step .1s  ease-in-out normal both;
       -moz-animation: step .1s  ease-in-out normal both;
