@@ -3,8 +3,8 @@ var ctx = canvas.getContext("2d");
 var ballRadius = 10;
 var x = canvas.width/2;
 var y = canvas.height-30;
-var dx = 7;
-var dy = -7;
+var dx = 3;
+var dy = -3;
 var paddleHeight = 10;
 var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
@@ -19,6 +19,8 @@ var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
 var score = 0;
 var lives = 3;
+var level = 0;
+var brickhits = 0;
 
 var bricks = [];
 for(c=0; c<brickColumnCount; c++) {
@@ -63,9 +65,10 @@ function collisionDetection() {
                     dy = -dy;
                     b.status = 0;
                     score++;
-                    if(score == brickRowCount*brickColumnCount) {
-                        alert("YOU WIN, CONGRATS!");
-                        document.location.reload();
+                    brickhits++;
+                    if(brickhits == brickRowCount*brickColumnCount) {
+                        level++;
+                        alert('You Win!');
                     }
                 }
             }
@@ -109,6 +112,11 @@ function drawScore() {
     ctx.fillStyle = "#0095DD";
     ctx.fillText("Score: "+score, 8, 20);
 }
+function drawLevel() {
+    ctx.font = "16px Arial";
+    ctx.fillStyle ="#0095DD";
+    ctx.fillText("Level: "+level, 200,20);
+}
 function drawLives() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
@@ -122,6 +130,7 @@ function draw() {
     drawPaddle();
     drawScore();
     drawLives();
+    drawLevel();
     collisionDetection();
 
     if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
@@ -143,18 +152,18 @@ function draw() {
             else {
                 x = canvas.width/2;
                 y = canvas.height-30;
-                dx = 7;
-                dy = -7;
+                dx = 3;
+                dy = -3;
                 paddleX = (canvas.width-paddleWidth)/2;
             }
         }
     }
 
     if(rightPressed && paddleX < canvas.width-paddleWidth) {
-        paddleX += 7;
+        paddleX += 3;
     }
     else if(leftPressed && paddleX > 0) {
-        paddleX -= 7;
+        paddleX -= 3;
     }
 
     x += dx;
